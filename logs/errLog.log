@@ -1,0 +1,40 @@
+20230403	22:54:19	ba59080e-b8ef-4f61-bae0-2ca8e5772712	MongoServerError: E11000 duplicate key error collection: chatappdb.users index: email_1 dup key: { email: null }	POST	/api/auth/signup	undefined
+20230403	22:55:35	3b15f004-bd37-4aff-8d5c-0e7008adbdbb	MongoServerError: E11000 duplicate key error collection: chatappdb.users index: email_1 dup key: { email: null }	POST	/api/auth/signup	undefined
+20230403	22:55:37	e3385437-907a-4a13-a747-a5f027b28311	MongoServerError: E11000 duplicate key error collection: chatappdb.users index: email_1 dup key: { email: null }	POST	/api/auth/signup	undefined
+20230403	22:56:09	b24f2226-5135-4f0a-b167-cfc8f94f041c	MongoServerError: E11000 duplicate key error collection: chatappdb.users index: email_1 dup key: { email: null }	POST	/api/auth/signup	undefined
+20230403	22:56:11	3fc5f9e1-8490-4c1c-82cb-ef1919d08e40	MongoServerError: E11000 duplicate key error collection: chatappdb.users index: email_1 dup key: { email: null }	POST	/api/auth/signup	undefined
+20230403	23:15:26	26eccaf4-6efc-4823-b942-d5e8abac55c5	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:16:21	9f8d3dd0-5ef2-4dcd-8113-1cd21e95bb9c	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:20:23	8dc0331f-dc68-40bd-b98b-b0705abe296c	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:22:54	fcb846e8-4093-4d00-bf35-6d253175a0f0	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:30:39	d7207f7d-a9b7-4833-a46c-eba221b9f4e1	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:32:42	520fed95-225a-4c60-8fbe-03617f228f76	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:33:41	2a3d1d52-de55-4e59-83ee-d3f0791b3486	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230403	23:34:05	b2e167a1-32cb-4988-9a5d-2389a37e573d	ReferenceError: foundUser is not defined	POST	/api/auth/signup	http://localhost:5173
+20230404	00:43:24	aa54a3c8-01f8-444e-9cdb-5f965d9bd61a	MongoServerError: $regex has to be a string	GET	/api/users	undefined
+20230404	02:15:13	7ab1ff4a-7fed-4c2b-add6-073d49c8f264	TypeError: utils.populate: invalid path. Expected string. Got typeof `object`	POST	/api/chat	undefined
+20230404	02:15:52	9f559182-ede5-485e-9346-a3e310e4a523	StrictPopulateError: Cannot populate path `latest` because it is not in your schema. Set the `strictPopulate` option to false to override.	POST	/api/chat	undefined
+20230404	22:30:07	09d405af-53cb-4952-b208-fdffa491f439	SyntaxError: Unexpected token b in JSON at position 3	POST	/api/chat/group	undefined
+20230404	22:30:10	aa9b36c1-fe7c-4150-82ef-d1858a7d38d7	SyntaxError: Unexpected token b in JSON at position 3	POST	/api/chat/group	undefined
+20230404	22:33:08	807c039e-50e9-4d7f-9e8c-9f7a248e816e	Error: Cannot set headers after they are sent to the client	POST	/api/chat/group	undefined
+20230404	23:08:28	95954593-d069-42e7-9e71-934fab63ee1e	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/rename	undefined
+20230404	23:12:14	fad71287-f788-4611-b270-39f7ac86377e	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/rename	undefined
+20230404	23:49:57	e6ac2ed6-687a-40e5-bd4e-72336c17de86	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/remove-user	undefined
+20230404	23:50:08	e37ab848-2ece-4a1a-9cc7-ff707f67ac95	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/remove-user	undefined
+20230405	14:36:10	3b3a65fd-c4a5-4a71-8bc5-0118804a513f	Error: Cannot set headers after they are sent to the client	POST	/api/chat/group	undefined
+20230406	23:30:13	0de42bdb-432d-40ba-81e8-855664ffc59c	SyntaxError: Unexpected token b in JSON at position 3	POST	/api/chat/group	http://localhost:5173
+20230406	23:35:01	c91a8d9e-1ce4-423c-8e17-5ba52fee1ed7	SyntaxError: Unexpected token c in JSON at position 3	POST	/api/chat/group	http://localhost:5173
+20230407	16:52:36	3ebb196e-f135-44fc-b01f-3fe283622286	SyntaxError: Unexpected string in JSON at position 140	PATCH	/api/chat/group/edit	undefined
+20230407	17:04:13	1270c336-3e27-4114-99b9-b5cfd9a6ae90	SyntaxError: Unexpected token ] in JSON at position 137	PATCH	/api/chat/group/edit	undefined
+20230407	21:13:05	27b5340b-6cc1-4291-bc38-72bfeb5f2e68	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/rename	http://localhost:5173
+20230407	21:13:22	a5b5ad28-7f44-4d8a-bc7e-38699115d20d	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/rename	http://localhost:5173
+20230407	23:46:15	1b78f455-0914-47a6-b15d-bba42adfd4b3	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/rename	http://localhost:5173
+20230407	23:46:57	c915e190-90bd-4f59-a663-1cdd1cbaeb9f	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/rename	http://localhost:5173
+20230407	23:52:58	e82ca27c-f843-4132-844c-e31a221991a4	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/add-user	http://localhost:5173
+20230407	23:53:40	c19156e2-af08-4c8f-b3ec-4a895a595beb	Error: Cannot set headers after they are sent to the client	PATCH	/api/chat/group/add-user	http://localhost:5173
+20230407	23:54:19	f9f22cc1-a177-48ff-a6e6-89d58854348b	TypeError: Cannot read properties of undefined (reading 'length')	PATCH	/api/chat/group/add-user	http://localhost:5173
+20230408	00:35:50	5f950d84-94d4-4178-b7f7-ffab0036867e	CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"	PATCH	/api/chat/group/remove-user	http://localhost:5173
+20230408	00:54:07	6d456ccc-11fe-4fe9-bcf7-dee949151c2f	CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"	PATCH	/api/chat/group/remove-user	http://localhost:5173
+20230408	00:54:11	7d50c191-c002-41ee-b2d3-bd88f8edd0f3	CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"	PATCH	/api/chat/group/remove-user	http://localhost:5173
+20230408	00:54:16	a3a9c36a-a7c3-4efb-99f8-24e8b1a7cc69	CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"	PATCH	/api/chat/group/remove-user	http://localhost:5173
+20230412	12:42:19	9810e84f-75f4-4617-a263-0836aac5d2a7	ReferenceError: mongoose is not defined	GET	/api/chat/642ef8db4cfe2e9416e470ee	undefined
