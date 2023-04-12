@@ -87,7 +87,7 @@ mongoose.connection.on("error", (error) => {
   console.log(error);
 
   logEvent(
-    `${err.no}: ${err.code}\t${err.syscall}\t${err.hostname}`,
+    `${error.no}: ${error.code}\t${error.syscall}\t${error.hostname}`,
     "mongoErrLog.log"
   );
 });
