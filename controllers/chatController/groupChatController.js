@@ -143,10 +143,6 @@ const removeUserFromGroup = async (req, res) => {
       return res.status(400).json({ message: "Chat not found" });
     }
 
-    if (getChat.users.length <= 3) {
-      return res.status(400).json({ message: "Group reachs minimun Members" });
-    }
-
     usersIds.forEach((id) => {
       getChat.users.pull({ _id: id });
     });
